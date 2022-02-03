@@ -27,7 +27,7 @@ Output: 3
 
 
 class Solution:
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands(self, grid) -> int:
 
         row = len(grid)
         col = len(grid[0])
